@@ -1,0 +1,24 @@
+.Order {
+    width: 100%;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    padding: 10px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    background-color: #ccc;
+
+}
+
+.Ingredints {
+    font-size: 1rem;
+    height: 30px;
+    width: 80px
+}
+
+@media (max-width: 500px) {
+    .Ingredints {
+        font-size: 0.8rem;
+        height: 20px;
+        width: 50px
+    } 
+}
